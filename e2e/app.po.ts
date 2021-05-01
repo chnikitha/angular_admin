@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class IcinPage {
+export class AdminPortalPage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,10 +1,10 @@
-import { IcinPage } from './app.po';
+import { AdminPortalPage } from './app.po';
 
-describe('icin App', function() {
-  let page: IcinPage;
+describe('admin-portal App', function() {
+  let page: AdminPortalPage;
 
   beforeEach(() => {
-    page = new IcinPage();
+    page = new AdminPortalPage();
   });
 
   it('should display message saying app works', () => {
